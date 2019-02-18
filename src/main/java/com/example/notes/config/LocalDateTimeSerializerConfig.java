@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
  * //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
  * //全局时间格式化
  *
- * @author gzfyit
+ * @author Lzk
  */
 @Configuration
 public class LocalDateTimeSerializerConfig {

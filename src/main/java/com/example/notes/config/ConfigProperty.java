@@ -8,10 +8,12 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * @author gzfyit
+ * 自定义配置文件读取
+ *
+ * @author Lzk
  */
 public class ConfigProperty {
-    private static final String URL = "spring-boot-notes.properties";
+    private static final String URL = "common.properties";
     private static final Properties PROPERTIES;
 
     static {
@@ -31,7 +33,8 @@ public class ConfigProperty {
             if (is != null) {
                 try {
                     is.close();
-                } catch (IOException ignored) {
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
             }
         }

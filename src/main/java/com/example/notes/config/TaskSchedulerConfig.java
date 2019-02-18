@@ -10,7 +10,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
  * spring配置类声明
  * 开启对计划任务的支持
  *
- * @author gzfyit
+ * @author Lzk
  */
 @Configuration
 @EnableScheduling
@@ -20,7 +20,7 @@ public class TaskSchedulerConfig {
     public TaskScheduler taskScheduler() {
         ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();
         //线程池大小
-        scheduler.setPoolSize(4);
+        scheduler.setPoolSize(8);
         return scheduler;
     }
 

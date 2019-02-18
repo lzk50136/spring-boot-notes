@@ -9,7 +9,7 @@ import org.springframework.web.filter.CorsFilter;
 /**
  * 添加跨域请求
  *
- * @author gzfyit
+ * @author Lzk
  */
 @Configuration
 public class WebMvcConfig {
