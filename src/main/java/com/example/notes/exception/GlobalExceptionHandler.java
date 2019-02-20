@@ -53,10 +53,10 @@ public class GlobalExceptionHandler {
     /**
      * 返回统一格式
      */
-    private <T extends Throwable> ApiResult resultFormat(T e) {
-        logger.error(e.getMessage());
-        logger.error(Arrays.toString(e.getStackTrace()));
-        return ApiResultUtil.error(10099, "失败", e.getMessage());
+    private <T extends Throwable> ApiResult resultFormat(T t) {
+        logger.error(t.getMessage());
+        logger.error(Arrays.toString(t.getStackTrace()));
+        return ApiResultUtil.error(10099, "失败", t.getMessage());
     }
 
 }
