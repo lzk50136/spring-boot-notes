@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(value = "/spring-mvc2")
 //(1)将ModelMap中属性名为currUser的属性放到Session属性列表中，以便这个属性可以跨请求访问
 @SessionAttributes("currUser")
-public class SpringMvc2Controller {
+public class SpringMvcController2 {
 
     /*
     4、@ModelAttribute
