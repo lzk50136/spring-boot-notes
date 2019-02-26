@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * 该注解用来绑定HttpSession中的attribute对象的值，便于在方法中的参数里使用。
  * 该注解有value、types两个属性，可以通过名字和类型指定要使用的attribute 对象；
  *
- * @author gzfyit
+ * @author Lzk
  */
 @Controller
 @RequestMapping("/editPet.do")
