@@ -7,8 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 /**
- * spring配置类声明
- * 开启对计划任务的支持
+ * 定时任务配置
  *
  * @author Lzk
  */

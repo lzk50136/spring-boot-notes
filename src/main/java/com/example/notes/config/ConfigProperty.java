@@ -13,7 +13,7 @@ import java.util.Properties;
  * @author Lzk
  */
 public class ConfigProperty {
-    private static final String URL = "common.properties";
+    private static final String URL = "spring-boot-notes.properties";
     private static final Properties PROPERTIES;
 
     static {

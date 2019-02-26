@@ -10,8 +10,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * //局部属性时间格式化
- * //@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+ * //不想全局时间格式化的话，在实体类私有属性加上此注解@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
  * //全局时间格式化
  *
  * @author Lzk
