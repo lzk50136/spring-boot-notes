@@ -6,6 +6,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
+ * 普通类获取Bean
+ *
  * @author Lzk
  */
 @Component
