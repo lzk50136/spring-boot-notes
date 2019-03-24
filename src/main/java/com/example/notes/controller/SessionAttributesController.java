@@ -38,7 +38,7 @@ public class SessionAttributesController {
      * C） 上述两种情况都没有时，new一个需要绑定的bean对象，然后把request中按名称对应的方式把值绑定到bean中。
      */
     @RequestMapping(value = "/owners/{ownerId}/pets/{petId}/edit", method = RequestMethod.POST)
-    public String processSubmit(@ModelAttribute User pet) {
+    public String processSubmit(@ModelAttribute User pet, @PathVariable String ownerId, @PathVariable String petId) {
         return "";
     }
 

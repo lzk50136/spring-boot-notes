@@ -55,7 +55,7 @@ public class SpringMvcController {
      * 注解@RequestMapping(value="/get/id?")：可匹配“/get/id1”或“/get/ida”，但不匹配“/get/id”或“/get/idaa”;
      * 注解@RequestMapping(value="/get/id*")：可匹配“/get/idabc”或“/get/id”，但不匹配“/get/idabc/abc”;
      * 注解@RequestMapping(value="/get/id/*")：可匹配“/get/id/abc”，但不匹配“/get/idabc”;
-     * 注解@RequestMapping(value="/get/id/**\{id}")：可匹配“/get/id/abc/abc/123”或“/get/id/123”，也就是Ant风格和URI模板变量风格可混用。
+     * 注解@RequestMapping(value="/get/id/**"/"{id}")：可匹配“/get/id/abc/abc/123”或“/get/id/123”，也就是Ant风格和URI模板变量风格可混用。
      */
     @RequestMapping(value = "/test3/id/**/{id}")
     public Integer test3(@PathVariable("id") Integer id) {
